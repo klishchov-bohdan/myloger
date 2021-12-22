@@ -12,3 +12,7 @@ func PrintHello(name string) {
 func Fatal(i interface{}) {
 	log.Fatal(i)
 }
+
+func Warning(i interface{}) {
+	log.Println(i)
+}
