@@ -1,11 +1,7 @@
-package main
+package loger
 
 import "fmt"
 
-func printHello(name string) {
+func PrintHello(name string) {
 	fmt.Println("Hello, ", name)
-}
-
-func main() {
-	printHello("Bohdan")
 }
